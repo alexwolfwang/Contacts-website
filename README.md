@@ -1,4 +1,4 @@
-Contacts website
+# Contacts website
 
 An AngularJS application which built with an idea of having an contactlist for a user, data stored in cloud and getting data directly from the cloud database, which is applied the technical skills of Firebase.
 
