@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myContacts"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Contacts App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>myContacts</h1>
+      </div>
+    </div>
+    <div ng-view></div>
+  </div>
+
+
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/firebase/firebase.js"></script>
+  <script src="bower_components/angularfire/dist/angularfire.js"></script>
+  <script src="bower_components/foundation/js/foundation.js"></script>
+  <script src="app.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyDZ8W2gu82ctiWhImRaD-qEiSG6Xr72Kzc",
+      authDomain: "mycontact-76796.firebaseapp.com",
+      databaseURL: "https://mycontact-76796.firebaseio.com",
+      storageBucket: "mycontact-76796.appspot.com",
+      messagingSenderId: "774369668535"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="contacts/contacts.js"></script>
+</body>
+</html>
