@@ -1,3 +1,10 @@
+Contacts website
+
+An AngularJS application which built with an idea of having an contactlist for a user, data stored in cloud and getting data directly from the cloud database, which is applied the technical skills of Firebase.
+
+Follow the site URL to add your contact and share this https://mycontact-76796.firebaseio.com/ to add more contacts to support.
+
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
